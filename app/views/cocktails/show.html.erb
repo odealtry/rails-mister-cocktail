@@ -6,4 +6,6 @@
   <%= dose.description %><span>,</span>
 <% end %>
 <br>
+<%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+<br>
 <small><%= link_to("Add a new dose", new_cocktail_dose_path(@cocktail)) %></small>

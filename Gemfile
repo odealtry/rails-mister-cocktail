@@ -28,6 +28,7 @@ gem 'json'
 gem 'open-uri'
 gem 'pg'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
