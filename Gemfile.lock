@@ -66,6 +66,10 @@ GEM
     concurrent-ruby (1.1.7)
     crass (1.0.6)
     diff-lcs (1.4.4)
+    dotenv (2.7.6)
+    dotenv-rails (2.7.6)
+      dotenv (= 2.7.6)
+      railties (>= 3.2)
     erubi (1.9.0)
     execjs (2.7.0)
     ffi (1.13.1)
@@ -210,12 +214,13 @@ DEPENDENCIES
   autoprefixer-rails
   bootsnap (>= 1.4.2)
   byebug
+  dotenv-rails
   font-awesome-sass (~> 5.12.0)
   jbuilder (~> 2.7)
   json
   listen (~> 3.2)
   open-uri
-  pg (>= 0.18, < 2.0)
+  pg
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   rails-controller-testing
