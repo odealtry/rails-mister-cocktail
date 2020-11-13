@@ -9,7 +9,7 @@ require 'json'
 require 'open-uri'
 
 url = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list"
-data = open(url).read
+data = URI.open(url).read
 ingredients = JSON.parse(data)["drinks"]
 puts "start"
 ingredients.each do |i|
